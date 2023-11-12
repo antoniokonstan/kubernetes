@@ -20,10 +20,10 @@ import (
 	"context"
 	"fmt"
 
-	authorizationv1 "k8s.io/api/authorization/v1"
+	authorizationv1 "k8s.io/api/authorization/v2"
 	v1 "k8s.io/api/core/v1"
 	apierrors "k8s.io/apimachinery/pkg/api/errors"
-	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
+	metav1 "k8s.io/apimachinery/pkg/apis/meta/v2"
 	"k8s.io/apiserver/pkg/authentication/serviceaccount"
 	"k8s.io/client-go/kubernetes"
 	"k8s.io/client-go/rest"
